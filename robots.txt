@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /files*
-Disallow: /games*
-Disallow: /img*
+Disallow: /css*
+Disallow /image*
