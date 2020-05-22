@@ -1,0 +1,183 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizeing:border-box;
+}
+
+
+  html,body {
+     background-color:#0b0c10;  /* set the background color here */
+     color:#edf5e1;  /* set the text color to black here */
+     font-family:"sans-serif"; /* set the font here */
+     text-align: center; /* set the text alignment here */
+     margin:0;
+     width:100%;
+     height:100%;
+ }
+/* for mobile view */
+
+
+
+.ab {
+     background-color:#333;
+     display:flex;
+     justify-content:flex-start;
+}
+
+.yo {
+ background-color:#c3073f;
+
+}
+
+.ab a {
+  color: #66fcf1;
+  text-align: center;
+  font-weight:bold;
+  text-decoration:none;
+  text-transform:uppercase;
+  padding:15px 25px;
+}
+
+
+.ab a:hover {
+  background-color:#c3073f ;
+  color::#1a1a1d ;
+}
+
+
+.ab input[type=text] {
+  float: right;
+  padding: 6px 4px 0 6px;
+  margin-top: 8px;
+  margin-right: 15px;
+  border:solid;
+  font-size: 17px;
+}
+.read p
+{
+ text-align:justify;
+
+ padding:10px;
+}
+
+#toggle
+{
+  display:none;
+ }
+.togg 
+{
+ background-color:#333;
+ border-bottom:2px solid#white;
+ color:white;
+ padding:10px;
+ display:flex;
+ justify-content:flex-start;
+}
+.togg label
+{
+ bacground-color:white;
+ height:20px;
+ width:50px;
+ color:white;
+ cursor:pointer;
+ display:flex;
+ align-items:center;
+ flex-direction:column;
+ 
+}
+.togg
+{
+ display:none;
+}
+.togg label span
+{
+ background-color;
+ height:20px;
+ width:100%;
+ mergin: 0px 0px;
+}
+
+/* when screen is 600px less then screen is vertical ratherthan horizontal */
+
+
+ @media screen and (max-width:700px)
+{
+  .ab {
+     flex-direction:column;
+     display:none;
+}
+  #toggle:checked + .ab
+ {
+   display:flex;
+ }
+ .togg
+ {
+  display:flex;
+ }
+}
+
+
+/* this section is only for the images sildes */
+.slider {max-width:800px;
+         height:auto;
+
+}
+
+.aa {
+     display:none;
+     margin-left: auto;
+     margin-right: auto;
+     width: 80%;
+     padding: 10px;
+}
+
+
+/*this is footer section */ 
+ footer {
+    margin-top:100px;
+    color:cyan;
+    font-weight:bold;
+    background-color:#333;
+    clear:both;
+    text-align:center;
+    padding:10px;
+}
+
+
+
+/* about */
+
+.git {
+  color:#66fcf1;;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+.git a:hover {
+  background-color:#c3073f ;
+  color::#1a1a1d ;
+}
+.about 
+{
+ float:left;
+ padding:15px;
+margin:10px;
+}
+#hope
+{
+ width:60%;
+ border:dotted;
+ border-color:black;
+}
+.s
+{
+ color:cyan;
+ font-weight:bold;
+}
+.o
+{
+ font-weight:bold;
+}
+
+
+
+
