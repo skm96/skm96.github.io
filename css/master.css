@@ -136,8 +136,7 @@
 /* the slider button */
 .bb-left, .bb-right{
   
-cursor: pointer;
-
+  cursor: pointer;
   top: 60%;
   width: auto;
   margin-top:-18px;
