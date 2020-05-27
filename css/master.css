@@ -66,7 +66,7 @@
 {
   display:none;
  }
-.togg 
+.togg
 {
  background-color:#333;
  border-bottom:2px solid#white;
@@ -85,7 +85,7 @@
  display:flex;
  align-items:center;
  flex-direction:column;
- 
+
 }
 .togg
 {
@@ -117,11 +117,11 @@
   display:flex;
  }
  .imp
- { 
+ {
     width: 100%;
     padding:0.5px;
     margin:0.5px;
-   
+
  }
 
 }
@@ -135,7 +135,7 @@
 
 /* the slider button */
 .bb-left, .bb-right{
-  
+
   cursor: pointer;
   top: 60%;
   width: auto;
@@ -165,7 +165,7 @@
 }
 
 
-/*this is footer section */ 
+/*this is footer section */
  footer {
     margin-top:100px;
     color:cyan;
@@ -193,7 +193,7 @@
   background-color:#c3073f ;
   color::#1a1a1d ;
 }
-.about 
+.about
 {
  padding:15px;
  margin:10px;
@@ -226,7 +226,7 @@ margin:10px;
  text-align:center;
  left:auto;
  right:auto;
-  
+
 }
 
 .c1{
@@ -235,7 +235,7 @@ margin:10px;
   margin-bottom: 16px;
   padding: 0 110px;
 text-align:center;
- 
+
 }
 
 .d {
@@ -247,8 +247,8 @@ text-align:center;
 .cont {
   padding: 60px;
   text-align: center;
-  
- 
+
+
 }
 
 .cont {
@@ -270,7 +270,7 @@ text-align: center;
 #m {color:lime;}
 /* blog */
 .blog{
- 
+
   padding:50px;
   background-color:grey;
   transition: transform .2s;
@@ -281,7 +281,7 @@ text-align: center;
 .blog:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
+  transform: scale(1.5);
 }
 
 
@@ -293,7 +293,7 @@ text-align: center;
  text-decoration:none;
  color:#66fcf1;
 }
-.pro a 
+.pro a
 {
   color: #66fcf1;
   text-align: center;
@@ -304,19 +304,19 @@ text-align: center;
 }
 
 
-.pro a:hover 
+.pro a:hover
 {
   background-color:#c3073f ;
   color::#1a1a1d ;
 }
 
-.cc 
+.cc
 {
 color:#66fcf1;
 text-decoration:none;
 }
 . cc a{
-background-color:#66fcf1;fs
+background-color:#66fcf1;//
 }
 /* photography  */
 .vid {
@@ -324,48 +324,59 @@ background-color:#66fcf1;fs
  padding:auto;
 
 }
-.r1 {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
+
+/* our image section look */
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
 }
 
-/* Create four equal columns that sits next to each other */
-.c1 {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+h1 {
+  font-size: 50px;
+  word-break: break-all;
 }
 
-.c1 img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+#p {color:#66fcf1;}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color:#414a4c;
+  padding: 10px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .c1 {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
   }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .c1 {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
+  .column {
+    width: 100%;
   }
 }
-
-
-
-
-
-
