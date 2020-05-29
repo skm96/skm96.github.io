@@ -1,0 +1,50 @@
+/* Center website */
+.gal {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.phd{
+  margin: 8px -16px;
+}
+
+
+.phd,
+.phd > .pg {
+  padding: 4px;
+}
+
+/* Create four equal columns that floats next to each other */
+.pg {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */ 
+.phd:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.ug {
+  background-color:#black;
+  padding: 7px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .pg {
+    width: 50%;
+  }
+}
+#lo {color:#66fcf1;}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .pg {
+    width: 100%;
+  }
+}
