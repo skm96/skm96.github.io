@@ -15,6 +15,9 @@
      height:100%;
      overflow-x: hidden;
  }
+
+h1 {color:lightblue;}
+p {color:powderblue;}
 /* for mobile view */
 
 
@@ -24,7 +27,6 @@
      display:flex;
      justify-content:flex-start;
      position:fixed;
-     width:100%
 }
 
 .yo {
@@ -181,97 +183,6 @@
     width:100%;
 }
 
-
-
-/* about */
-
-.git {
-  color:#66fcf1;;
-  text-decoration:none;
-  text-transform:uppercase;
-}
-.git a:hover {
-  background-color:#c3073f ;
-  color::#1a1a1d ;
-}
-.about 
-{
- padding:15px;
- margin:10px;
-}
-
-.imp{
-display:block;
-padding:10px;
-margin:10px;
-
-}
-
-#hope
-{
- width:40%;
- border:dotted;
- border-color:black;
-}
-.s
-{
- color:cyan;
- font-weight:bold;
-}
-.o
-{
- font-weight:bold;
-
-}
-/* This is contact section */
-
-
-.r1 {
- text-align:center;
- left:auto;
- right:auto;
-  
-}
-
-.c1{
-  display:block;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 110px;
-text-align:center;
- 
-}
-
-.d {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
-
-}
-
-.cont {
-  padding: 60px;
-  text-align: center;
-  
- 
-}
-
-.cont {
-  padding: 0 15px;
-}
-
-.cont::after, .r1::after {
-  content: "";
-  clear: both;
-  display: block;
-text-align: center;
-
-}
-.ee
-{
-  color:#66fcf1;
-  text-decoration:none;
-}
-#m {color:lime;}
 /* blog */
 
 

@@ -18,11 +18,11 @@
         /* anchor tag decoration */ 
         a { 
             text-decoration: none; 
-            color: #5673C8; 
+            color:cyan; 
         } 
            
         a:hover { 
-            color: lightblue; 
+            color: cyan; 
         } 
            
         /* paragraph tga decoration */ 
@@ -75,4 +75,6 @@
                 width: 100%; 
             } 
         }
-h3 {color:lightblue;}
+
+
+h5 {color:lightblue;}
