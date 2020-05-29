@@ -57,6 +57,7 @@
            
         /* content decoration */ 
         .content { 
+            display:block;
             background-color:#29-2826; /*pore use korbo*/
             padding: 10px; 
             border: 1px solid #f9-d342; /*pore use korbo*/ 
