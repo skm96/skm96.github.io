@@ -24,6 +24,7 @@
      display:flex;
      justify-content:flex-start;
      position:fixed;
+     width:100%
 }
 
 .yo {
