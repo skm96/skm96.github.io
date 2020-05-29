@@ -69,8 +69,8 @@
             } 
         } 
        
-        /* window size 400 width set */ 
-        @media screen and (max-width: 400px) { 
+        /* window size 600 width set */ 
+        @media screen and (max-width: 600px) { 
             .column { 
                 width: 100%; 
             } 
