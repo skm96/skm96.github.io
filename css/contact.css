@@ -18,11 +18,11 @@
         /* anchor tag decoration */ 
         a { 
             text-decoration: none; 
-            color: #5673C8; 
+            color: fee715ff; 
         } 
            
         a:hover { 
-            color: lightblue; 
+            color:fee715ff; 
         } 
            
         /* paragraph tga decoration */ 
