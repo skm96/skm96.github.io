@@ -1,12 +1,19 @@
 
+
+
+
+
+
+
+
+
+
+
         * { 
             box-sizing: border-box; 
         } 
            
-        /* padding for whole body */ 
-        body { 
-            padding: 15px; 
-        } 
+   
            
         /* styling body */ 
         .container { 
