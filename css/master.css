@@ -185,7 +185,11 @@ p {color:#adefd1ff;}
 
 /* blog */
 
-
+#particles-js 
+{
+ height:100%;
+ background:black;
+}
 
 /* project section */
 
