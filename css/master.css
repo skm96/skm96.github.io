@@ -183,38 +183,22 @@ p {color:#adefd1ff;}
     width:100%;
 }
 
-/* blog */
 
 #particles-js 
 {
- height:100%;
- background:black;
+ height:25px;
 }
-
-/* project section */
-
-
-.pop
+#particles-js2 
 {
- text-decoration:none;
- color:#66fcf1;
+ height:25px;
 }
-.pro a 
+#particles-js3 
 {
-  color: #66fcf1;
-  text-align: center;
-  font-weight:bold;
-  text-decoration:none;
-  text-transform:uppercase;
-
+ height:35px;
 }
 
 
-.pro a:hover 
-{
-  background-color:#c3073f ;
-  color::#1a1a1d ;
-}
+
 .cf
 {
 }
