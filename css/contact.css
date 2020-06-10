@@ -35,7 +35,7 @@
         /* row and column decoration */ 
         .row { 
             margin: 0px -18px; 
-            padding: 8px; 
+            padding: 10px; 
         } 
            
         .row > .column { 
@@ -56,20 +56,32 @@
         /* content decoration */ 
         .content { 
             background-color:#29-2826; /*pore use korbo*/
-            padding: 10px; 
+            padding: 2px; 
             border: 1px solid #f9-d342; /*pore use korbo*/ 
         } 
            
         /* window size 850 width set */ 
         @media screen and (max-width: 850px) { 
             .column { 
-                width: 50%; 
+           
+                width: 60%; 
             } 
         } 
        
         /* window size 600 width set */ 
         @media screen and (max-width: 600px) { 
             .column { 
+              
                 width: 100%; 
+                                           
             } 
         }
+#particles-js7 
+{
+ height:35px;
+}
+#particles-js8 
+{
+ height:35px;
+}
+

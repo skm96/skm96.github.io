@@ -1,15 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-        * { 
+* { 
             box-sizing: border-box; 
         } 
            
@@ -83,6 +72,21 @@
                 width: 100%; 
             } 
         }
+
+#particles-js4 
+{
+ height:20px;
+}
+
+#particles-js5 
+{
+ height:20px;
+}
+#particles-js6 
+{
+ height:35px;
+}
+
 
 
 h5 {color:#f4a950;}
