@@ -1,81 +1,46 @@
+.aso
+{
+ margin:10px 50px;
 
-        * { 
-            box-sizing: border-box; 
-        } 
-           
-    
-        } 
-           
-        /* styling body */ 
-        .container { 
-            max-width: 1200px; 
-            margin: auto; 
-        } 
-           
-       
-        /* anchor tag decoration */ 
-        a { 
-            text-decoration: none; 
-            color: fee715ff; 
-        } 
-           
-        a:hover { 
-            color:fee715ff; 
-        } 
-           
-        /* paragraph tga decoration */ 
-        p { 
-            display: -webkit-box; 
-            -webkit-box-orient: vertical; 
-            -webkit-line-clamp: 4; 
-            overflow: hidden; 
-       
-        } 
-           
-        /* row and column decoration */ 
-        .row { 
-            margin: 0px -18px; 
-            padding: 10px; 
-        } 
-           
-        .row > .column { 
-            padding: 6px; 
-        } 
-           
-        .column { 
-            float: left; 
-            width: 25%; 
-        } 
-           
-        .row:after { 
-            content: ""; 
-            display: table; 
-            clear: both; 
-        } 
-           
-        /* content decoration */ 
-        .content { 
-            background-color:#29-2826; /*pore use korbo*/
-            padding: 2px; 
-            border: 1px solid #f9-d342; /*pore use korbo*/ 
-        } 
-           
+}
+.aso img
+{
+  width:230px;
+  padding:5px;
+ //filter: grayscale(60%);
+  transition: 1s;
+}
+.aso img:hover 
+{
+ filter:grayscale(0);
+ transform:scale(1.1 );
+}
+
+
+
+  /* window size 600 width set */ 
+        @media screen and (max-width: 600px) { 
+            .aso { 
+                margin:10px 50px;
+               
+            }
+ 
+ 
+        }
+
         /* window size 850 width set */ 
         @media screen and (max-width: 850px) { 
-            .column { 
-           
-                width: 60%; 
-            } 
+            .aso { 
+                margin:10px 50px; 
+
+            }
+  
         } 
-       
-        /* window size 600 width set */ 
-        @media screen and (max-width: 600px) { 
-            .column { 
-              
-                width: 100%; 
-                                           
-            } 
-        }
+
+
+
+
+
 #particles-js7 
 {
  height:35px;
