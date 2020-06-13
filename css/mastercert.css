@@ -1,0 +1,253 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizeing:border-box;
+}
+
+
+  html,body {
+      background-color:#0b0c10;  /* set the background color here */
+      color:#edf5e1;  /* set the text color to black here */
+      font-family:"comic-sans-ms"; /* set the font here */
+      margin:0;
+      width:100% ;
+      height:100% ;
+      overflow-x: hidden;
+ }
+
+h1 {color:lightblue;}
+p {color:#adefd1ff;}
+/* for mobile view */
+
+
+
+.ab {
+     background-color:#333;
+     display:flex;
+     justify-content:flex-start;
+     position:fixed;
+    
+}
+
+.yo {
+ background-color:#c3073f;
+
+}
+
+.ab a {
+  color: #66fcf1;
+  text-align: center;
+  font-weight:bold;
+  text-decoration:none;
+  text-transform:uppercase;
+  padding:15px 25px;
+}
+
+
+.ab a:hover {
+  background-color:#c3073f ;
+  color::#1a1a1d ;
+}
+
+
+
+.read p
+{
+ text-align:center;
+
+ padding:10px;
+}
+
+#toggle
+{
+  display:none;
+ }
+.togg 
+{
+ background-color:#333;
+ border-bottom:2px solid#white;
+ color:white;
+ padding:10px;
+ display:flex;
+ justify-content:flex-start;
+}
+.togg label
+{
+ bacground-color:white;
+ height:20px;
+ width:50px;
+ color:white;
+ cursor:pointer;
+ display:flex;
+ align-items:center;
+ flex-direction:column;
+ 
+}
+.togg
+{
+ display:none;
+}
+.togg label span
+{
+ background-color;
+ height:20px;
+ width:100%;
+ mergin: 0px 0px;
+}
+
+/* when screen is 600px less then screen is vertical ratherthan horizontal */
+
+
+ @media screen and (max-width:600px)
+{
+  .ab {
+     flex-direction:column;
+     display:none;
+}
+  #toggle:checked + .ab
+ {
+   display:flex;
+ }
+ .togg
+ {
+  display:flex;
+ }
+ .imp
+ { 
+    width: 100%;
+    padding:0.5px;
+    margin:0.5px;
+   
+ }
+
+}
+
+
+/* this section is only for the images sildes */
+.slider {max-width:800px;
+         height:auto;
+
+}
+
+/* the slider button */
+.bb-left, .bb-right{
+  
+  cursor: pointer;
+  top: 60%;
+  width: auto;
+  margin-top:-18px;
+  padding: 12px;
+  color:black;
+  font-weight: bold;
+  font-size: 12px;
+  transition: 0.6s ease;
+  border-radius: 5px 2px 2px 0;
+  user-select: none;
+}
+.bb-right {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.bb-left:hover, .bb-right:hover {
+  background-color: #c3073f;
+}
+
+.aa {
+     display:none;
+     margin-left: auto;
+     margin-right: auto;
+     width: 80%;
+     padding: 10px;
+}
+
+
+/*this is footer section */ 
+ footer {
+    margin-top:100px;
+    color:cyan;
+    font-weight:bold;
+    background-color:#333;
+    clear:both;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+}
+
+
+#particles-js 
+{
+ height:30px;
+}
+#particles-js2 
+{
+ height:30px;
+}
+#particles-js3 
+{
+ height:30px;
+}
+#particles-js23 
+{
+ height:30px;
+}
+#particles-js29
+{
+ height:30px;
+}
+#particles-js30 
+{
+ height:30px;
+}
+#particles-js31 
+{
+ height:30px;
+}
+
+
+.hukka
+{
+ margin:10px 50px;
+
+}
+.hukka img
+{
+  width:230px;
+  padding:5px;
+ //filter: grayscale(60%);
+  transition: 1s;
+}
+.hukka img:hover 
+{
+ filter:grayscale(0);
+ transform:scale(1.1 );
+}
+
+
+
+  /* window size 600 width set */ 
+        @media screen and (max-width: 600px) { 
+            .hukka { 
+                margin:10px 50px;
+               
+            }
+ 
+ 
+        }
+
+        /* window size 850 width set */ 
+        @media screen and (max-width: 850px) { 
+            .hukka { 
+                margin:10px 50px; 
+
+            }
+  
+        } 
+
+
+
+
+
+

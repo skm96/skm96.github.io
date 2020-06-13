@@ -1,12 +1,16 @@
 
 .cf
 {
+ display:inline-block;
+ width:100%;
+ padding:10px;
 }
 .cc 
 {
 color:#66fcf1;
 text-decoration:none;
 }
+
 . cc a{
 background-color:#66fcf1;fs
 }
@@ -50,3 +54,24 @@ h4 {color:#adefd1ff;}
 {
  height:30px;
 }
+
+  /* window size 600 width set */ 
+        @media screen and (max-width: 600px) { 
+            .cf { 
+               display:inline-block
+               width:100%;   
+               
+            }
+ 
+ 
+        }
+
+        /* window size 850 width set */ 
+        @media screen and (max-width: 850px) { 
+            .cf { 
+                display:inline-block                
+                         
+
+            }
+  
+        } 
