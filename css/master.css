@@ -1,135 +1,26 @@
-*{
-  margin:0px;
-  padding:0px;
-  box-sizeing:border-box;
-}
-
-
-  html,body {
+  html {
      background-color:#0b0c10;  /* set the background color here */
      color:#edf5e1;  /* set the text color to black here */
-     font-family:"comic-sans-ms"; /* set the font here */
-     text-align: center; /* set the text alignment here */
-     margin:0;
-     width:100%;
-     height:100%;
-     overflow-x: hidden;
- }
-
-h1 {color:lightblue;}
-p {color:#adefd1ff;}
-/* for mobile view */
-
-
-
-.ab {
-     background-color:#333;
-     display:flex;
-     justify-content:flex-start;
-     position:fixed;
+}
+body{
+     background-color:#0b0c10;  /* set the background color here */
+     color:#edf5e1;  /* set the text color to black here */
+    padding:50px 0px 0px 0px;
+    z-index:0;
 }
 
-.yo {
- background-color:#c3073f;
-
+.navbar-dark {
+     background-color:#0b0c10 ;
 }
 
-.ab a {
-  color: #66fcf1;
-  text-align: center;
-  font-weight:bold;
-  text-decoration:none;
-  text-transform:uppercase;
-  padding:16px 43px;
-  width:100%;
-}
+h1 {color:lightblue;
+text-align:center;}
+p {color:#adefd1ff;
+text-align:center;}
 
 
 
-.ab a:hover {
-  background-color:#c3073f ;
-  color::#1a1a1d ;
-}
 
-
-.ab input[type=text] {
-  float: right;
-  padding: 6px 4px 0 6px;
-  margin-top: 8px;
-  margin-right: 15px;
-  border:solid;
-  font-size: 17px;
-}
-.read p
-{
- text-align:center;
-
- padding:10px;
-}
-
-#toggle
-{
-  display:none;
- }
-.togg 
-{
- background-color:#333;
- border-bottom:2px solid#white;
- color:white;
- padding:10px;
- display:flex;
- justify-content:flex-start;
-}
-.togg label
-{
- bacground-color:white;
- height:20px;
- width:50px;
- color:white;
- cursor:pointer;
- display:flex;
- align-items:center;
- flex-direction:column;
- 
-}
-.togg
-{
- display:none;
-}
-.togg label span
-{
- background-color;
- height:20px;
- width:100%;
- mergin: 0px 0px;
-}
-
-/* when screen is 600px less then screen is vertical ratherthan horizontal */
-
-
- @media screen and (max-width:600px)
-{
-  .ab {
-     flex-direction:column;
-     display:none;
-}
-  #toggle:checked + .ab
- {
-   display:flex;
- }
- .togg
- {
-  display:flex;
- }
- .imp
- { 
-    width: 100%;
-    padding:0.5px;
-    margin:0.5px;
-   
- }
-
-}
 
 
 /* this section is only for the images sildes */
@@ -138,9 +29,21 @@ p {color:#adefd1ff;}
 
 }
 
+#line {
+
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;
+  background-color:#C0C0C0;
+  height: 4px;
+
+}
+
+
 /* the slider button */
 .bb-left, .bb-right{
-  
+
   cursor: pointer;
   top: 60%;
   width: auto;
@@ -170,7 +73,7 @@ p {color:#adefd1ff;}
 }
 
 
-/*this is footer section */ 
+/*this is footer section */
 footer {
     margin-top:100px;
     color:cyan;
@@ -186,33 +89,33 @@ footer {
 }
 
 
-#particles-js 
+#particles-js
 {
- height:30px;
+ height:35px;
 }
-#particles-js2 
+#particles-js2
 {
- height:30px;
+ height:35px;
 }
-#particles-js3 
+#particles-js3
 {
- height:30px;
+ height:35px;
 }
-#particles-js23 
+#particles-js23
 {
- height:30px;
+ height:35px;
 }
 #particles-js29
 {
- height:30px;
+ height:35px;
 }
-#particles-js30 
+#particles-js30
 {
- height:30px;
+ height:35px;
 }
-#particles-js31 
+#particles-js31
 {
- height:30px;
+ height:35px;
 }
 
 
@@ -228,7 +131,7 @@ footer {
  //filter: grayscale(60%);
   transition: 1s;
 }
-.hukka img:hover 
+.hukka img:hover
 {
  filter:grayscale(0);
  transform:scale(1.1 );
@@ -236,27 +139,26 @@ footer {
 
 
 
-  /* window size 600 width set */ 
-        @media screen and (max-width: 600px) { 
-            .hukka { 
+  /* window size 600 width set */
+        @media screen and (max-width: 600px) {
+            .hukka {
                 margin:10px 50px;
-               
+
             }
- 
- 
+
+
         }
 
-        /* window size 850 width set */ 
-        @media screen and (max-width: 850px) { 
-            .hukka { 
-                margin:10px 50px; 
+        /* window size 850 width set */
+        @media screen and (max-width: 850px) {
+            .hukka {
+                margin:10px 50px;
 
             }
-  
-        } 
 
+        }
 
-
-
-
-
+#s
+{
+color:orange;
+}
