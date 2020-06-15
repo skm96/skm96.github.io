@@ -1,52 +1,29 @@
-.aso
-{
- margin:10px 50px;
+
+#line {
+
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color:#C0C0C0;
+  height: 4px;
 
 }
-.aso img
-{
-  width:230px;
-  padding:5px;
- //filter: grayscale(60%);
-  transition: 1s;
-}
-.aso img:hover 
-{
- filter:grayscale(0);
- transform:scale(1.1 );
-}
 
-
-
-  /* window size 600 width set */ 
-        @media screen and (max-width: 600px) { 
-            .aso { 
-                margin:10px 50px;
-               
-            }
- 
- 
-        }
-
-        /* window size 850 width set */ 
-        @media screen and (max-width: 850px) { 
-            .aso { 
-                margin:10px 50px; 
-
-            }
-  
-        } 
-
-
-
-
-
-#particles-js7 
+#particles-js5
 {
  height:35px;
 }
-#particles-js8 
+
+#particles-js6
 {
  height:35px;
 }
+
+#particles-js7
+{
+ height:35px;
+}
+
+
 
