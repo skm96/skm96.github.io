@@ -40,7 +40,7 @@ p {color:#adefd1ff;}
   font-weight:bold;
   text-decoration:none;
   text-transform:uppercase;
-  padding:15px 25px;
+  padding:30px 60px;
 }
 
 
@@ -169,11 +169,11 @@ p {color:#adefd1ff;}
 
 
 /*this is footer section */ 
- footer {
+footer {
     margin-top:100px;
     color:cyan;
     font-weight:bold;
-    background-color:#333;
+    background-color:	#0e1111;
     clear:both;
     text-align:center;
     padding:10px;

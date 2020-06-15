@@ -1,71 +1,89 @@
-.git {
-text-decoration:none;
-background-color:lightgreen;
-}
-
-.pora
-{
- margin:10px 50px;
-
-}
-.pora img
-{
-  width:230px;
-  padding:5px;
- //filter: grayscale(60%);
-  transition: 1s;
-}
-.pora img:hover 
-{
- filter:grayscale(0);
- transform:scale(1.1 );
-}
-
-
-
-  /* window size 600 width set */ 
-        @media screen and (max-width: 600px) { 
-            .pora { 
-                margin:10px 50px;
-               
-            }
-           p {
-
-             width:50%;
-            text-align:center;
-                  }
- 
- 
-        }
-
+ * { 
+            box-sizing: border-box; 
+        } 
+           
+   
+           
+        /* styling body */ 
+        .container { 
+            max-width: 1200px; 
+            margin: auto; 
+        } 
+           
+       
+        /* anchor tag decoration */ 
+        a { 
+            text-decoration: none; 
+            color:cyan; 
+        } 
+           
+        a:hover { 
+            color: cyan; 
+        } 
+           
+        /* paragraph tga decoration */ 
+        p { 
+            display: -webkit-box; 
+            -webkit-box-orient: vertical; 
+            -webkit-line-clamp: 4; 
+            overflow: hidden; 
+       
+        } 
+           
+        /* row and column decoration */ 
+        .row { 
+            margin: 0px -18px; 
+            padding: 8px; 
+        } 
+           
+        .row > .column { 
+            padding: 6px; 
+        } 
+           
+        .column { 
+            float: left; 
+            width: 25%; 
+        } 
+           
+        .row:after { 
+            content: ""; 
+            display: table; 
+            clear: both; 
+        } 
+           
+        /* content decoration */ 
+        .content { 
+            display:block;
+            background-color:#29-2826; /*pore use korbo*/
+            padding: 10px; 
+            border: 1px solid #f9-d342; /*pore use korbo*/ 
+        } 
+           
         /* window size 850 width set */ 
         @media screen and (max-width: 850px) { 
-            .pora { 
-                margin:10px 50px; 
-
-            }
-  
+            .column { 
+                width: 50%; 
+            } 
         } 
+       
+        /* window size 600 width set */ 
+        @media screen and (max-width: 600px) { 
+            .column { 
+                width: 100%; 
+            } 
+        }
+
+
+h5 {color:#f4a950;}
 
 
 
-
-
-
-
-#particles-js4 
+particles-js4 
 {
- height:20px;
+ height:5px;
 }
 
-#particles-js5 
-{
- height:20px;
-}
-#particles-js6 
-{
- height:35px;
-}
+
 #particles-js32
 {
  height:35px;
@@ -91,13 +109,29 @@ background-color:lightgreen;
  height:35px;
 }
 
-#particles-js37
-{
- height:35px;
+
+
+#line {
+
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color:#C0C0C0;
+  height: 4px;
+
 }
 
-
-
-
-h5 {color:#f4a950;}
+column img
+{
+  width:230px;
+  padding:5px;
+ //filter: grayscale(60%);
+  transition: 1s;
+}
+.column img:hover 
+{
+ filter:grayscale(0);
+ transform:scale(1.1 );
+}
 
