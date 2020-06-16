@@ -1,16 +1,20 @@
   html {
-     background-color:#0b0c10;  /* set the background color here */
+     background-color:#0D0D0D;  /* set the background color here */
      color:#edf5e1;  /* set the text color to black here */
 }
 body{
-     background-color:#0b0c10;  /* set the background color here */
+     background-color:#0D0D0D;  /* set the background color here */
      color:#edf5e1;  /* set the text color to black here */
     padding:50px 0px 0px 0px;
     z-index:0;
 }
 
 .navbar-dark {
-     background-color:#0b0c10 ;
+     background-color:#000000;
+}
+footer{
+  background-color:black;
+text-align: center;
 }
 
 h1 {color:lightblue;
@@ -73,20 +77,6 @@ text-align:center;}
 }
 
 
-/*this is footer section */
-footer {
-    margin-top:100px;
-    color:cyan;
-    font-weight:bold;
-    background-color:	#0e1111;
-    clear:both;
-    text-align:center;
-    padding:10px;
-    position:fixed;
-    left:0;
-    bottom:0;
-    width:100%;
-}
 
 
 #particles-js
@@ -160,5 +150,5 @@ footer {
 
 #s
 {
-color:orange;
+color:#dcd9c6;
 }
