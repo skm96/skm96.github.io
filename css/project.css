@@ -1,5 +1,10 @@
 /* project section */
 
+#skm{
+   width: 100%;
+  max-width: 50px;
+  height: auto;
+}
 
 .pop
 {

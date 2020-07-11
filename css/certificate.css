@@ -1,3 +1,9 @@
+#skm{
+   width: 100%;
+  max-width: 50px;
+  height: auto;
+}
+
 .responsive-png {
    width: 8%;
   max-width: 37px;

@@ -1,5 +1,11 @@
 /* photography  */
 
+
+#skm{
+   width: 100%;
+  max-width: 50px;
+  height: auto;
+}
 .gallery
 {
  margin:10px 50px;
